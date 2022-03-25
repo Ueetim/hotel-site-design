@@ -1,3 +1,5 @@
+// FOR LANDING PAGE SCRIPTS
+
 //create an array of objects containing info to be displayed
 const reviews = [
     {
@@ -5,28 +7,28 @@ const reviews = [
       name: "susan smith",
       job: "web developer",
       img: "Images/person_3.jpg",
-      text: "there they go, packing stadiums as shady spits his flow. Nuts they go, macadamian they go so ballistic, woah!"
+      text: "Hotel Pablo is the best. Excellent Room Service"
     },
     {
       id: 2,
       name: "john wu",
       job: "web designer",
       img: "Images/person_1.jpg",
-      text: "Thats why we sing for these kids who dont have a thing, except for a dream and a freaking rap magazine."
+      text: "I recommend Hotel Pablo looking for a nice place to pass the night or a couple of nights"
     },
     {
       id: 3,
       name: "ron lehmann",
       job: "product manager",
       img: "Images/person_2.jpg",
-      text: "Who post pinup pictures on their walls all day long, idolize their favorite rappers and know all their songs"
+      text: "Definitely my favorite hotel. Lodged for about a week and the experience was nothing short of amazing"
     },
     {
       id: 4,
       name: "john jones",
       job: "ui/ux designer",
       img: "Images/person_7.jpg",
-      text: "so they sit and they cry at night, wishing they'd die. Til they throw on a rap record and they sit and they vibe"
+      text: "Hotel Pablo is the best place anyone can think of"
     },
   ]
   
@@ -102,7 +104,7 @@ const reviews = [
   })
 
 
-//   faq
+//   FREQUENTLY ASKED QUESTIONS
 
 const plusIcon = document.querySelectorAll('.plus')
 const minusIcon = document.querySelectorAll('.minus')
@@ -158,6 +160,3 @@ minusIcon.forEach(function(btn) {
             answer.classList.add('hide-ans')
       })
 })
-
-// back to top button
-

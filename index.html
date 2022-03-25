@@ -11,21 +11,24 @@
 </head>
 <body>
     <!-- nav section -->
-    <nav>
+    <nav class="nav">
         <p class="logo"><strong>PABLO</strong></p>
         <label for="check" class="check"><i class="fa fa-bars" aria-hidden="true"></i></label>
         <input type="checkbox" id="check">
         <ul>
             <label for="check" class="cancel">&#10006;</label>
-            <li><a href="#">HOME</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="rooms.html">ROOMS</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li><a class="nav-link" href="index.html">HOME</a></li>
+            <li><a class="nav-link" href="services.html">SERVICES</a></li>
+            <li><a class="nav-link" href="rooms.html">ROOMS</a></li>
+            <li><a class="nav-link" href="about.html">ABOUT</a></li>
+            <li><a class="nav-link" href="contact.html">CONTACT</a></li>
         </ul>
     </nav>
 
+    <div id="top"></div>
+
     <!-- home section -->
+
     <section id="home">
         <h1 class="hometxt">WELCOME TO HOTEL PABLO</h1>
         <p class="motto">THE BEST PLACE TO STAY</p>
@@ -169,6 +172,13 @@
         </div>
     </section>
 
+    <!-- back to top btn -->
+    <a href="#top">
+        <button class="top-btn">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </a>
+
     <footer>
         <div class="footer">
             <div class="grp1">
@@ -219,10 +229,11 @@
             </div>
         </div>
         <div>
-            <p class="rights">&copy; 2021 All rights reserved</p>
+            <p class="rights">&copy; <span class="date">2022</span> All rights reserved</p>
         </div>
     </footer>
 
     <script src="main.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
