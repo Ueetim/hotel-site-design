@@ -68,7 +68,7 @@ nav > input[type=checkbox] {
 }
 
 .nav-sticky {
-    background-color: white;
+    background-color: #f2f2f2;
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
     color: black;
     position: fixed;
@@ -1490,8 +1490,8 @@ footer {
     align-items: center;
     animation: zoom-in 3s infinite;
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 20px;
     z-index: 1000;
     cursor: pointer;
     visibility: hidden;
