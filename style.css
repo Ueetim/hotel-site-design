@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -17,6 +17,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 li {
@@ -106,12 +110,12 @@ nav > input[type=checkbox] {
         color: black;
         display: block;
         font-size: 20px;
-        transition: .3s;
+        transition: .2s;
     }
 
     .cancel:hover {
         color: rgb(156, 16, 16);
-        transition: .3s;
+        transition: .2s;
     }
 
     nav > ul {
@@ -127,7 +131,7 @@ nav > input[type=checkbox] {
         top: 0;
         height: 100vh;
         margin: 0;
-        transition: 0.5s;
+        transition: 0.2s;
     }
 
     nav > ul > li {
@@ -143,17 +147,13 @@ nav > input[type=checkbox] {
         position: fixed;
         width: 300px;
     }
-
-    input[type=checkbox]:checked  body {
-        overflow-y: hidden;
-    }
 }
 
 /* home section */
 #home {
     position: relative;
     /* background-image: url(Images/img2.jpg); */
-    background-color: rgb(54, 54, 54);
+    background-color: #000000b0;
     background-blend-mode: overlay;
     width: 100vw;
     background-repeat: no-repeat;
@@ -320,7 +320,7 @@ hr {
     padding: 10px 30px;
     border-radius: 80px;
     border: none;
-    background-color: rgb(155, 155, 155);
+    background-color: var(--red);
     color: white;
     transition: .3s;
 }
@@ -329,7 +329,7 @@ hr {
     padding: 10px 30px;
     border-radius: 80px;
     border: none;
-    background-color: rgb(156, 16, 16);
+    background-color: #690202;
     transition: .3s;
     color: white;
 }
@@ -341,6 +341,9 @@ hr {
 
 .promo {
     background-image: url(Images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: rgb(24, 23, 23);
     background-blend-mode: overlay;
     margin-top: 80px;
@@ -456,13 +459,13 @@ hr {
 }
 
 .readmore {
-    color:rgb(124, 122, 122);
+    color:var(--red);
     transition: 0.3s;
     width: 100px;
 }
 
 .readmore:hover {
-    color: rgb(156, 16, 16);
+    color: rgb(114, 6, 6);
     transition: 0.3s;
 }
 
