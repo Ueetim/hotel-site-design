@@ -805,6 +805,10 @@ footer {
         /* text-align: center; */
     }
 
+    .footer ul {
+        padding: 0;
+    }
+
     .grp2 {
         display: none;
     }
